@@ -7,7 +7,7 @@ int main()
     auto kernels = toy_model.get_kernel_functions();
     for(auto func:  kernels)
     {
-        std::cout << func << std::endl;
+        std::cout << func.first << std::endl;
         std::cout << "****************************" << std::endl;
     }
 }
